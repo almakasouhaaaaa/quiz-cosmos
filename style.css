@@ -1,0 +1,118 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #16a085;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ecf0f1;
+    margin-bottom: 25px;
+}
+
+.quiz-step {
+    display: none;
+}
+
+.quiz-step.active {
+    display: block;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.quiz-btn {
+    background-color: #fafbfc;
+    border: 2px solid #e2e8f0;
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 15px;
+    color: #2d3748;
+    transition: all 0.2s ease;
+}
+
+.quiz-btn:hover {
+    background-color: #e6fffa;
+    border-color: #319795;
+    transform: translateY(-2px);
+}
+
+.result-box {
+    background-color: #f0fff4;
+    border: 2px dashed #38a169;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.product-title {
+    font-size: 22px;
+    font-weight: bold;
+    color: #27ae60;
+    margin-top: 10px;
+}
+
+.product-desc {
+    font-size: 15px;
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.cta-btn {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.cta-btn:hover {
+    background-color: #219653;
+}
+
+.restart-btn {
+    background: none;
+    border: none;
+    color: #7f8c8d;
+    text-decoration: underline;
+    margin-top: 25px;
+    cursor: pointer;
+}
